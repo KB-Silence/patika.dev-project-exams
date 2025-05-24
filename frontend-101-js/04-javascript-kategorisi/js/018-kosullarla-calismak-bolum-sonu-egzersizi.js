@@ -33,43 +33,6 @@ const FROWN = `
 `
 
 
-// let examGrade = prompt("Puani Girin")
-// let textInfo;
-// let info = document.querySelector("#info")
-
-// if (examGrade >= 0 && examGrade <= 100) {
-//     // tum if yapilari buraya gelsin
-//     textInfo = SMILE
-//     info.classList.add('text-primary')
-//     if (examGrade >= 90) {
-//         textInfo += " AA"
-//     } else if (examGrade >= 85) {
-//         textInfo += " BA"
-//     } else if (examGrade >= 80) {
-//         textInfo += " BB"
-//     } else if (examGrade >= 75) {
-//         textInfo += " CB"
-//     } else if (examGrade >= 70) {
-//         textInfo += " CC"
-//     } else if (examGrade >= 65) {
-//         textInfo += " DC"
-//     } else if (examGrade >= 60) {
-//         textInfo += " DD"
-//     } else if (examGrade >= 50) {
-//         textInfo += " FD"
-//     } else if (examGrade < 50) {
-//         textInfo = `${FROWN} FF`
-//         info.classList.remove('text-primary')
-//         info.classList.add('text-danger')
-//     }
-// } else {
-//     textInfo = "Bilgiler Dogru Degil"
-// }
-
-
-// info.innerHTML = `${textInfo} -> ${examGrade}`
-
-
 // let examGrade = 48;
 let examGrade = prompt("Puan Girin");
 let examNote = document.querySelector("#examNote");
